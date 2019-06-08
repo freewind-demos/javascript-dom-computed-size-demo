@@ -1,6 +1,8 @@
 const main = document.getElementById('main');
-console.log('main.offsetWidth: ', main.offsetWidth)
-console.log('main.offsetHeight: ', main.offsetHeight)
+const style = window.getComputedStyle(main)
 
-console.log('main.clientWidth: ', main.clientWidth)
-console.log('main.clientHeight: ', main.clientHeight)
+console.log('height', style.height)
+console.log('width', style.width)
+console.log('borderWidth', style.borderWidth)
+console.log('padding', style.padding)
+console.log('margin', style.margin)

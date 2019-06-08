@@ -1,16 +1,6 @@
-JavaScript DOM "offset" and "client" width/height Demo
-=====================================================
+JavaScript DOM Computed Size Demo
+=================================
 
-offsetWidth/Height: border外围圈住的范围（房子占地面积） 
-
-```
-offset = content + padding*2 + border*2 
-```
-
-clientWidth/Height: border内围的范围（房子内部范围）
-
-```
-offset = content + padding*2
-```
+一个Element在页面上经过计算得出来的真实大小。
 
 Open `index.html` in your browser.
